@@ -19,40 +19,64 @@
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="./index.html">Charlotte Piedmont</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <!-- <li class="active"><a href="#">Home</a></li> -->
-          <li><a href="./cpp-about.html">About</a></li>
-          <li><a class="active" href="./cpp-projects.html">Projects</a></li>
-          <li><a href="./cpp-contact.html">Contact</a></li>
-          <li><a href="./cpp-gallery.html">Gallery</a></li>
-        </ul>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html">Charlotte Piedmont</a>
       </div>
-    </nav>
+      <ul class="nav navbar-nav">
+        <li><a href="./cpp-about.html">About</a></li>
+        <li><a class="active" href="./cpp-projects.html">Projects</a></li>
+        <li><a href="./cpp-gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
       
+    <div class="header">
+      <h1>Projects</h1>
+    </div>
+
+    <!-- carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
     
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-        <div class="item active">
-          <img src=amsterdam.jpg alt="Los Angeles">
+        <div class="item active" id="first">
+          <!-- <img src=apcsp-ss-real.png alt="Screenshot of a crazy-eights python program"> -->
+          <div class="carousel-caption">
+            <a class="linky" href="https://quiz.charpiedmont.repl.co/" target="_blank"><h2>Personality Quiz</h2></a>
+            <p>I created this mini quiz using JavaScript, HTML, and CSS during my time at Catapult. I had a lot of fun making it and it taught me the basics of conditional statements in JavaScript.</p>
+          </div>
         </div>
     
-        <div class="item">
-          <img src=amsterdam.jpg alt="Chicago">
+        <div class="item" id="second">
+          <!-- <img src=quiz-ss.png alt="Screenshot of quiz program"> -->
+          <div class="carousel-caption">
+            <a class="linky" href="https://replit.com/@charpiedmont/AP-CSP-Performance-Task#main.py" target="_blank"><h2>Crazy Eights</h2></a>
+            <p>I wrote this Crazy Eights program in Python for my AP Computer Science Principles project. It taught me the importance of extensive project planning/documentation and how to effectively utilize functions in code.</p>
+          </div>
         </div>
     
-        <div class="item">
-          <img src=amsterdam.jpg alt="New York">
+        <div class="item" id="third">
+          <!-- <img src=cafe-ss.png alt="Screenshot of an html page titled Hope's Cafe"> -->
+          <div class="carousel-caption">
+            <h2>Restaurant Website</h2>
+            <p>This site for my cat's imaginary restaurant was the first HTML website I ever built as well as the first major project I ever completed. It taught me basic HTML and how to carry out a complete project from start to finish.</p>
+          </div>
+        </div>
+
+        <div class="item" id="fourth">
+          <!-- <img src=cafe-ss.png alt="Screenshot of an html page titled Hope's Cafe"> -->
+          <div class="carousel-caption">
+            <h2>Choose Your Own Adventure</h2>
+            <p>This was the first program I ever wrote using JavaScript! It taught me how to use JavaScript alongside CSS and HTML to create a fun game.</p>
+          </div>
         </div>
       </div>
     
@@ -68,5 +92,7 @@
     </div>
 
     <script>src="bootstrap.js"</script>
+
+
 </body>
 </html>

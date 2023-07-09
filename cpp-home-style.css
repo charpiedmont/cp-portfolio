@@ -42,67 +42,22 @@
   vertical-align: middle;
   /*background-color:rgb(254, 250, 224);*/
   border-radius: 15px;
-  width: 500px;
+  width: 450px;
   height: 50px;
   padding: 25px;
 }
 
-.about {
-  background-color: rgb(254, 250, 224);
-  width: 100px;
-  height: 50px;
-  border: solid rgb(52, 78, 65) 2px;
-  /* border: solid rgb(163, 177, 138) 2px; */
-  border-radius: 10px;
-  text-align: center;
-}
-
-.projects {
-  background-color: rgb(254, 250, 224);
-  width: 100px;
-  height: 50px;
-  border: solid rgb(52, 78, 65) 2px;
-  /* border: solid rgb(163, 177, 138) 2px; */
-  border-radius: 10px;
-  text-align: center;
-}
-
-.gallery {
-  background-color: rgb(254, 250, 224);
-  width: 100px;
-  height: 50px;
-  border: solid rgb(52, 78, 65) 2px;
-  /* border: solid rgb(163, 177, 138) 2px; */
-  border-radius: 10px;
-  text-align: center;
-}
-
-.contact {
-  background-color: rgb(254, 250, 224);
-  width: 100px;
-  height: 50px;
-  border: solid rgb(52, 78, 65) 2px;
-  /* border: solid rgb(163, 177, 138) 2px; */
-  border-radius: 10px;
-  text-align: center;
-}
-
-.center-aligned{
+.bubble{
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
   font-family: 'Mulish', sans-serif;
   font-size: 16px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(52, 78, 65);
-  color: rgb(254, 250, 224, .6);
+  background-color: rgb(254, 250, 224);
+  width: 100px;
+  height: 50px;
+  border: solid rgb(52, 78, 65) 2px;
+  border-radius: 10px;
   text-align: center;
-  font-family: 'Mulish', sans-serif;
 }

@@ -20,7 +20,6 @@
 .cards-child{
     /* position: relative; */
     z-index: 100;
-    background-image: url("past-pic.jpg");
     background-position: center;
     background-size: cover;
     vertical-align: middle;
@@ -38,7 +37,8 @@
     border: 10px solid rgb(52, 78, 65);
     border-radius: 5px;
     margin-top: auto;
-    margin-left: 5px;
+    /* margin-right: 30px;
+    margin-left: 15px; */
     z-index: -100;
     position: absolute;
     width: 100%;
@@ -50,14 +50,17 @@
     /* position: absolute; */
     margin: auto;
     /* top: 0px; */
-    background-color: rgb(163, 177, 138);
-    opacity: 0.6;
-}
-
-.time-head h1{
+    background-color: rgba(163, 177, 138, .6);
+    /* opacity: 0.6; */
+    font-family: 'Mulish', sans-serif;
     color: black;
     font-weight: bold;
 }
+
+/* .time-head h1{
+    color: black;
+    font-weight: bold;
+} */
 
 button{
     padding: 0;
@@ -68,10 +71,12 @@ button{
 
 .time-text{
     height: inherit;
-    background-color: rgb(163, 177, 138);
-    /* background-color: black; */
-    opacity: 0.85;
+    background-color: rgba(163, 177, 138, .85);
+    color: black;
     height: 82%;
+    padding: 8px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
 }
 
 #future-text{
@@ -84,4 +89,16 @@ button{
 
 #present-text{
     display: none;
+}
+
+#past{
+    background-image: url("past-pic.jpg");
+}
+
+#present{
+    background-image: url("lake.jpeg");
+}
+
+#future{
+    background-image: url("cago.jpeg");
 }

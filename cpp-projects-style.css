@@ -1,7 +1,79 @@
 .carousel{
     width: 75%;
-    height: 50%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
+    /* border-radius: 10px; */
+}
+
+.carousel .item {
+    height: 500px;
+    /* border-radius: 10px; */
+  }
+
+  .item img {
+      height: 500px;
+      margin-bottom: auto;
+      /* border-radius: 10px;  */
+  }
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgb(52, 78, 65);
+    color: rgb(254, 250, 224);
+    font-size: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 15px;
+    border: solid rgb(254, 250, 224) 2px;
+    font-family: 'Mulish', sans-serif;
+  }
+
+.carousel-caption{
+    /* max-width: 100%;
+    width:100%; */
+    font-family: 'Mulish', sans-serif;
+    background-color: rgba(44, 50, 56, .9);
+    left: 0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px !important;
+}
+
+.linky{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+#first{
+    background-image: url("quiz-ss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#second{
+    background-image: url("apcsp-ss-real.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#third{
+    background-image: url("cafe-ss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#fourth{
+    background-image: url("zoo-ss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
