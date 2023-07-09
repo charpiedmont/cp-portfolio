@@ -6,28 +6,66 @@
     <title>Charlotte Piedmont</title>
     <!--Style Sheets-->
     <link href="portfolio-style.css" rel="stylesheet" type="text/css" />
+    <link href="cpp-gallery-style.css" rel="stylesheet" type="text/css" />
     <!-- Bootstrap Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="./cpportfolio-home.html">Charlotte Piedmont</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <!-- <li class="active"><a href="#">Home</a></li> -->
-            <li><a href="./cpp-about.html">About</a></li>
-            <li><a href="./cpp-about.html">Projects</a></li>
-            <li><a href="./cpp-contact.html">Contact</a></li>
-            <li><a class="active" href="./cpp-gallery.html">Gallery</a></li>
-          </ul>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./index.html">Charlotte Piedmont</a>
         </div>
-      </nav>
-      
+        <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Home</a></li> -->
+          <li><a href="./cpp-about.html">About</a></li>
+          <li><a href="./cpp-projects.html">Projects</a></li>
+          <li><a href="./cpp-contact.html">Contact</a></li>
+          <li><a class="active" href="./cpp-gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- photo grid -->
+    <div class="container">
+      <!-- Row One -->
+      <div class="row imagetiles">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=amsterdam.jpg class="img-responsive" style= "margin-top:5%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=conan.jpg class="img-responsive" style= "margin-top:5%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=cake.jpg class="img-responsive" style= "margin-top:5%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=book.jpg class="img-responsive" style= "margin-top:5%">
+          </div>
+      </div>
+      <!-- Row Two -->
+      <div class="row imagetiles">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=hopi.jpg class="img-responsive" style= "margin-top:10%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=beat.jpg class="img-responsive" style= "margin-top:10%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=math.jpg class="img-responsive" style= "margin-top:10%; object-position: 75% 0%">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+              <img src=starb.jpg class="img-responsive" style= "margin-top:10%">
+          </div>
+      </div>
+      <br>
+  </div>
+    
 </body>
 </html>

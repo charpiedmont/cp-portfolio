@@ -1,9 +1,21 @@
 
-head {
-  background-color: red;
+body{
+  background-color: rgb(163, 177, 138) !important ;
+  height: 100vh;
+
+  /* background-color: rgb(52, 78, 65) !important ;  */
+
 }
 
 /* nav bar */
+
+.navbar-brand{
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar-nav{
+  font-family: 'Mulish', sans-serif;
+}
 
 ul {
   list-style-type: none;
@@ -35,6 +47,8 @@ li a {
 
 .container-fluid {
   background-color: rgb(52, 78, 65);
+  /* background-color: rgb(163, 177, 138); */
+
 }
 
 /* Change the link color to #111 (black) on hover */

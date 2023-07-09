@@ -1,86 +1,108 @@
 
-body{
-  justify-content:center;
+.page-content{
+  margin: auto;
+  margin-top: auto;
 }
 
-#forest-background {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
-
-
 .welcome-container {
+    size: absolute;
     text-align: center;
-    width: 300px;
     background-color: rgb(254, 250, 224);
-    border: 15px solid rgb(52, 78, 65);
+    border: 10px solid rgb(52, 78, 65);
     border-radius: 10%;
-    width: 500px;
-    padding: 50px;
+    max-width: 500px;
+    max-height: 350px;
+    padding: 20px;
     margin: auto;
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
   }
 
- h1 {
-    text-align: center;
-    font-size: 25.5vw;
- } 
+#name{
+  font-size: 45px;
+}
 
- /* Flexbox container */
+#welcome-txt{
+  font-size: 30px;
+}
+
+/* h1 {
+  text-align: center;
+  font-size: 25.5vw;
+}  */
+
+/* Flexbox container */
 .nav-parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-    vertical-align: middle;
-    background-color:rgb(254, 250, 224);
-    border-radius: 15px;
-    width: 500px;
-    height: 50px;
-    padding: 25px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  vertical-align: middle;
+  /*background-color:rgb(254, 250, 224);*/
+  border-radius: 15px;
+  width: 500px;
+  height: 50px;
+  padding: 25px;
+}
 
-  .about {
-    background-color: rgb(254, 250, 224);
-    width: 100px;
-    height: 50px;
-    border: solid black 2px;
-    border-radius: 10px;
-    text-align: center;
-  }
+.about {
+  background-color: rgb(254, 250, 224);
+  width: 100px;
+  height: 50px;
+  border: solid rgb(52, 78, 65) 2px;
+  /* border: solid rgb(163, 177, 138) 2px; */
+  border-radius: 10px;
+  text-align: center;
+}
 
-  .center-aligned{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .projects {
-    background-color: rgb(254, 250, 224);
-    width: 100px;
-    height: 50px;
-    border: solid black 2px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .gallery {
-    background-color: rgb(254, 250, 224);
-    width: 100px;
-    height: 50px;
-    border: solid black 2px;
-    border-radius: 10px;
-    text-align: center;
-  }
+.projects {
+  background-color: rgb(254, 250, 224);
+  width: 100px;
+  height: 50px;
+  border: solid rgb(52, 78, 65) 2px;
+  /* border: solid rgb(163, 177, 138) 2px; */
+  border-radius: 10px;
+  text-align: center;
+}
 
-  .contact {
-    background-color: rgb(254, 250, 224);
-    width: 100px;
-    height: 50px;
-    border: solid black 2px;
-    border-radius: 10px;
-    text-align: center;
-  }
+.gallery {
+  background-color: rgb(254, 250, 224);
+  width: 100px;
+  height: 50px;
+  border: solid rgb(52, 78, 65) 2px;
+  /* border: solid rgb(163, 177, 138) 2px; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact {
+  background-color: rgb(254, 250, 224);
+  width: 100px;
+  height: 50px;
+  border: solid rgb(52, 78, 65) 2px;
+  /* border: solid rgb(163, 177, 138) 2px; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.center-aligned{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 78, 65);
+  color: rgb(254, 250, 224, .6);
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}

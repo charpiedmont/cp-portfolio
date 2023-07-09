@@ -6,28 +6,63 @@
     <title>Charlotte Piedmont</title>
     <!--Style Sheets-->
     <link href="portfolio-style.css" rel="stylesheet" type="text/css" />
+    <link href="cpp-about-style.css" rel="stylesheet" type="text/css" />
     <!-- Bootstrap Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="./cpportfolio-home.html">Charlotte Piedmont</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <!-- <li class="active"><a href="#">Home</a></li> -->
-            <li><a class="active" href="./cpp-about.html">About</a></li>
-            <li><a href="./cpp-about.html">Projects</a></li>
-            <li><a href="./cpp-contact.html">Contact</a></li>
-            <li><a href="./cpp-gallery.html">Gallery</a></li>
-          </ul>
-        </div>
-      </nav>
-      
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html">Charlotte Piedmont</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#">Home</a></li> -->
+        <li><a class="active" href="./cpp-about.html">About</a></li>
+        <li><a href="./cpp-projects.html">Projects</a></li>
+        <li><a href="./cpp-contact.html">Contact</a></li>
+        <li><a href="./cpp-gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="cards-parent">
+    <hr class="line">
+    <div id="past" class="cards-child">
+      <button class="time-head" id="past-btn">
+        <h1>Past</h1>
+      </button>
+      <div class="time-text" id="past-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+    </div>
+
+    <div id="present" class="cards-child">
+      <button class="time-head" id="present-btn">
+          <h1>Present</h1>
+      </button>
+      <div class="time-text" id="present-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+    </div>
+
+    <div id="future" class="cards-child">
+      <button class="time-head" id="future-btn">
+        <h1>Future</h1>
+      </button>
+      <div class="time-text" id="future-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="cpp-about-graphics.js"></script> <!-- call javascript file -->
+
 </body>
 </html>
